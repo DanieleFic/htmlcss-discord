@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body{
+    font-family: 'Whitney', sans-serif;
+}
+header:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.main1{
+    display: inline;
+    position: fixed;
+    width: 100%;
+    background-color: rgb(49, 97, 224);
+    font-weight: bold;
+    margin: auto;
+    
+}
+
+header nav{
+    float: left;
+    height: 80px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+nav img{
+    float: left;
+    margin: 20px;
+}
+
+nav li {
+    display: inline;
+    float:left;
+    list-style-type: none;
+    padding: 30px;
+    color: white;
+}
+
+
+header button{
+    float: right;
+    border-radius: 30px;
+    border: none;
+    padding: 10px;
+    background: white;
+    border: none;
+    
+}
+
+ /*
+.jumpo{
+    width: 100%;
+}
+
+.main-section{
+    display: inline-block;
+    text-align: center;
+}
+.main-text{
+    line-height: 50px;
+    position: relative;
+}
