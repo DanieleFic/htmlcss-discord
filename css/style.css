@@ -112,7 +112,11 @@ header button{
 main{
     margin-top: 100px;
 }
-
+.menù1:after{
+    content: "";
+    display: table;
+    clear: both;
+}
 .menù1{
     width: 80%;
     padding-left: 300px;
@@ -125,7 +129,7 @@ h2{
 
 .text-main{
     height: 500px;
-
+    
 }
 .image1 img{
     float: left;
