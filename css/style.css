@@ -180,18 +180,18 @@ h2{
 
 .footer-box{
     background-color: rgb(35, 39, 42);
-    height: 500px;
-    justify-content: flex-start;
+    max-height: 500px;
 }
 
-ul {
+ul li a{
+    display: inline;
+    text-decoration: none;
+}
+
+footer ul {
     float: left;
 }
 .row-footer{
     width: 80%;
-   padding:100px;
-}
-div ul {
-    display: inline;
-    list-style-type:none;
+    padding: 200px;
 }
