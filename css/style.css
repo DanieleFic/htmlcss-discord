@@ -6,7 +6,7 @@
 }
 
 
-.main1:after{
+.row:after{
     content: "";
     display: table;
     clear: both;
@@ -17,6 +17,10 @@ header{
     height: 80px;
 }
 
+a{
+    text-decoration: none;
+    color: white;
+}
 
 header nav{
     float: left;
@@ -40,10 +44,6 @@ header nav{
     padding-right: 320px; 
 }
 
-ul{
-    text-align: center;
-}
-
 nav li {
     display: inline-block;
     list-style-type: none;
@@ -59,22 +59,19 @@ header button{
     border: none;  
 }
 
-.jumpo{
-    width: 100%;
-}
 
 .text-header{
     background-size: cover;
     background-image: url(/img/jumbo.png);
     text-align: center;
-    height: 600px;
+    min-height: 700px;
     
 }
 .main-text{
     position: absolute;
     color: white;
     text-align: center;
-    top: 180px;
+    top: 200px;
     left: 30%;
     font-size: 20px;
     margin-bottom: 30px;
@@ -84,14 +81,11 @@ header button{
     margin-bottom: 30px;
     font-size: 50px;
 }
-.main-button{
-    text-align: center;
-}
 
 .main-button {
     position: absolute;
     text-align: center;
-    top: 380px;
+    top: 400px;
     left: 35%;
 }
 .main-button  a{
@@ -100,27 +94,19 @@ header button{
     border-radius: 20px 20px;
     text-decoration: none;
 }
-.main-button  a:first-child{
+.mac-button{
     background-color: white;
     color: black;
 }
-.main-button a:last-child{
+.browser-button{
     background-color: #23272a;
     color: white;
 }
 
-main{
-    margin-top: 150px;
-}
 .menù:after{
     content: "";
     display: table;
     clear: both;
-}
-.menù{
-    width: 80%;
-    padding-left: 300px;
-    margin-top: 100px;
 }
 
 h2{
@@ -130,29 +116,49 @@ h2{
     margin: 30px;
 }
 
+.main-section{
+    padding: 120px 0;
+    width: 80%;
+    padding-left: 300px;
+    margin-top: 100px;
+}
+
+.menù{
+    margin-bottom:150px;
+}
+.text-main .sx{
+    height: 500px;
+    width: 350px;
+    float: left; 
+}
 .text-main{
     height: 500px;
-    
-}
-.image1 img{
+    width: 350px;
     float: left;
 }
-.image2 img{
+
+.sotto{
+    width: 230px;
+    height: 300px;
+    right: 0;
+    float:inherit;
+}
+
+.image1 {
+    float: left;
+}
+.image2 {
     float: right;
 }
 
-.footer-box{
-    background-color: rgb(35, 39, 42);
-    height: 500px;
-}
 .sotto-menù{
     width: 90%;
     padding-left: 300px;
     text-align: center;
 }
-.star{
+.box-star{
     padding-bottom: 150px;
-    padding-top: 50px;
+    padding-top: 50px;  
     text-align: center;
     font-size: 31px;
     font-weight: bold;
@@ -162,7 +168,7 @@ h2{
     padding-top: 25px;
 }
 
-.star a:last-child{
+.star {
     font-size: 15px;
     text-decoration: none;
     color: #fff;
@@ -171,9 +177,27 @@ h2{
     padding: 13px 20px;
     border-radius: 20px 20px;
 }
-.row-box{
+
+.footer-box{
+    background-color: rgb(35, 39, 42);
+    height: 500px;
+}
+
+.menu col{
+    float: left;
+}
+
+.asdbox{
     width: 80%;
-    height: 100%;
-    padding-left: 25%;
-    padding-top: 50px;
+    padding: 120px 0;
+    width: 80%;
+    padding-left: 300px;
+    margin-top: 100px;
+    display: inline;
+}
+
+
+
+.menu2{
+    display: inline;
 }
