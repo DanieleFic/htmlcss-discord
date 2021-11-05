@@ -178,13 +178,12 @@ h2{
     border-radius: 20px 20px;
 }
 
-.footer-box{
+footer{
     background-color: rgb(35, 39, 42);
-    max-height: 500px;
+    height: 500px;
 }
 
-ul li a{
-    display: inline;
+section li{
     text-decoration: none;
 }
 
@@ -193,5 +192,5 @@ footer ul {
 }
 .row-footer{
     width: 80%;
-    padding: 200px;
+    margin: 0 auto;
 }
