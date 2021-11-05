@@ -5,7 +5,6 @@
     font-family: 'Whitney', sans-serif;
 }
 
-
 .row:after{
     content: "";
     display: table;
